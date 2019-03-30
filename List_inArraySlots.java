@@ -35,11 +35,11 @@ public class List_inArraySlots {
       */ 
     public String toString() {
     	String output = "[";
-		for(int i : list) {
-		    output += i + ", ";
-		}
-		output += "]";
-		return output;
+	for(int index = 0; index < numberOfElements; index++) {
+	        output += list[index] + ", ";
+        }
+	output += "]";
+	return output;
     }
 
     
